@@ -2,3 +2,4 @@
 *.whl
 __pycache__/*
 poetry.lock
+quart_log
