@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "app"
+version = "0.1.0"
+description = ""
+authors = ["danig55 <danielgo5678@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+quart = "*"
+hypercorn = "*"
+
+[tool.poetry.dev-dependencies]
+tox = "*"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
